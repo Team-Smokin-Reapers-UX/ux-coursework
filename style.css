@@ -1,0 +1,17 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+.navbar-default {
+    background-color: #51b765;
+    height: 50px;
+}
+
+.dropdown-toggle active::hover {
+    background-color: #89b860
+}
+
+img {
+    margin-top: -15px;
+    max-height: 47px;
+}
