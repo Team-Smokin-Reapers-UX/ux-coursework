@@ -7,11 +7,16 @@ body {
     height: 50px;
 }
 
-.dropdown-toggle active::hover {
-    background-color: #89b860
+.dropdown-menu {
+    background-color: #10a67d
 }
 
 img {
     margin-top: -15px;
     max-height: 47px;
+}
+
+#avatar {
+    margin-top: -11px;
+    max-height: 40px;
 }
