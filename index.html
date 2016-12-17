@@ -100,24 +100,86 @@
                     <div class="navbar-collapse collapse sidebar-navbar-collapse">
                         <ul class="nav navbar-nav">
                             <li><a href="#">Курсове</a></li>
-                            <li><a href="#">Обектно-ориентирано програмиране</a></li>
-                            <li><a href="#">Училищна академия: HTML, CSS и Javascript</a></li>
-                            <li><a href="#">Структури от данни и алгоритми</a></li>
-                            <li><a href="#">UX дизайн и работа с Photoshop</a></li>
-                            <li><a href="#">Single-page приложения с Angular 2</a></li>
-                            <li><a href="#">Основи на JavaScript</a></li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Основи на програмирането<b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">HTML основи</a></li>
+                                    <li><a href="#">CSS стилизиране</a></li>
+                                    <li><a href="#">Основи на JavaScript</a></li>
+                                    <li class="divider"></li>
+                                    <li><a href="#">C# основи</a></li>
+                                    <li><a href="#">C# за напреднали</a></li>
+                                    <li><a href="#">Обектно-ориентирано програмиране</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Програмиране за напреднали<b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">JavaScript UI и DOM</a></li>
+                                    <li><a href="#">JavaScript ООП</a></li>
+                                    <li><a href="#">Single-page приложения</a></li>
+                                    <li class="divider"></li>
+                                    <li><a href="#">Unit testing</a></li>
+                                    <li><a href="#">Качествен програмен код I</a></li>
+                                    <li><a href="#">Качествен програмен код II</a></li>
+                                    <li><a href="#">Шаблони за дизайн и контейнери</a></li>
+
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Web Front-End<b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">UX дизайн и работа с Photoshop</a></li>
+                                    <li><a href="#">Node.js</a></li>
+                                    <li><a href="#">Single-page приложения с Angular 2</a></li>
+                                    <li><a href="#">Building Front-End of Web apps</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Web Технологии<b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">Бази данни</a></li>
+                                    <li><a href="#">Структури от данни и алгоритми</a></li>
+                                    <li><a href="#">Node.js</a></li>
+                                    <li><a href="#">Single-page приложения с Angular 2</a></li>
+                                    <li><a href="#">Web Apps with APS.NET MVC</a></li>
+                                    <li><a href="#">Web Apps with APS.NET Web Forms</a></li>
+                                    <li><a href="#">Web Apps with Spring</a></li>
+                                    <li><a href="#">Web Apps with Django</a></li>
+
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Mobile Технологии<b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">Бази данни</a></li>
+                                    <li><a href="#">Структури от данни и алгоритми</a></li>
+                                    <li><a href="#">Node.js</a></li>
+                                    <li><a href="#">Single-page приложения с Angular 2</a></li>
+                                    <li><a href="#">Windows 10 Apps</a></li>
+                                    <li><a href="#">Apps for iPhone and iPad</a></li>
+                                    <li><a href="#">Android Apps</a></li>
+                                    <li><a href="#">Multiplatform apps with NativeScript</a></li>
+
+                                </ul>
+                            </li>
                             <li class="dropdown">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">Kids Academy курсове <b class="caret"></b></a>
                                 <ul class="dropdown-menu">
                                     <li><a href="#">Разработка на игри - Начинаещи - Явор Никифоров (ноември 2016)</a></li>
                                     <li><a href="#">Разработка на игри - Средно напреднали /Урок 23+/ - Иво Дилов</a></li>
                                     <li><a href="#">Разработка на игри - Средно напреднали /Урок 23+/ - Иво Дилов</a></li>
-                                    <li class="divider"></li>                    
+                                    <li class="divider"></li>
                                     <li><a href="#">Алгоритмично програмиране - Средно напреднали /Урок 20+/ - Явор Никифоров</a></li>
                                     <li><a href="#">Алгоритмично програмиране - Начинаещи - Явор Никифоров</a></li>
                                     <li><a href="#">Алгоритмично програмиране - Напреднали /Урок 29+/ - Иво Дилов</a></li>
                                 </ul>
                             </li>
+                            <li><a href="#">School Academy курсове</a></li>
+                            <li class="divider"></li>
+                            <li><a href="#">Digital Academy курсове</a></li>
+                            <li class="divider"></li>
+                            <li><a href="#">Algo Academy курсове</a></li>
                         </ul>
                     </div>
                     <!--/.nav-collapse -->
@@ -125,7 +187,7 @@
             </div>
         </div>
         <div class="col-sm-8">
-            Main content goes here
+            <img id="courses-picture" src="images/courses.png" alt="Courses">
         </div>
     </div>
 </body>

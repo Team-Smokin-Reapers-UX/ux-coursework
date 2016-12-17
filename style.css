@@ -11,6 +11,10 @@ body {
     background-color: #10a67d
 }
 
+.white {
+    color: white;
+}
+
 img {
     margin-top: -15px;
     max-height: 47px;
