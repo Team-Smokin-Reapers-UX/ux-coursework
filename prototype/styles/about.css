@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700');
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+main {
+    overflow: auto;
+    margin-bottom: 20px;
+}
+main h2{
+    font-weight: 300;
+    font-size: 44px;
+    padding-bottom: 10px;
+}
+main h5.date {
+    font-weight: 500px;
+    font-size: 17px;
+}
+main .about-container {
+    margin: 20px 0px;
+}
+main .content-container p{
+    font-weight: 300;
+    line-height: 170%;
+    font-size: 16px;
+    color: #4f5d6c;
+}
+main .content-container ul{
+    font-weight: 300;
+    line-height: 230%;
+    font-size: 15px;
+    color: #4f5d6c;
+}
+main .content-container .timeline{
+    list-style: none;
+    padding: 0px;
+}
+main .content-container .timeline-description{
+    margin: 30px 0px;
+}
+main .content-container .timeline-title{
+    margin: 30px 0px;
+    font-size: 30px;
+}
+@media (max-width:1250px) {
+    main .content-container .timeline{
+        font-size: 14.8px;
+    }
+}
+@media (max-width:1200px) {
+    main .content-container .timeline{
+        font-size: 14.5px;
+    }
+}
+@media (max-width:1150px) {
+    main .content-container .timeline{
+        font-size: 14.4px;
+    }
+}
+@media (max-width:1110px) {
+    main .content-container .timeline{
+        font-size: 14.2px;
+    }
+}
+@media (max-width:1050px) {
+    main .content-container .timeline{
+        font-size: 14px;
+    }
+}
+@media (max-width:1000px) {
+    main .content-container .timeline{
+        font-size: 13.8px;
+    }
+}
+@media (max-width: 992px) {
+    main .content-container .timeline{
+        font-size: 15px;
+    }
+    .about-container {
+        display: -webkit-box;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -moz-box-orient: vertical;
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        /* optional */
+        -webkit-box-align: start;
+        -moz-box-align: start;
+        -ms-flex-align: start;
+        -webkit-align-items: flex-start;
+        align-items: flex-start;
+    }
+    .content-container {
+        -webkit-box-ordinal-group: 2;
+        -moz-box-ordinal-group: 2;
+        -ms-flex-order: 2;
+        -webkit-order: 2;
+        order: 2;
+    }
+    .image-container {
+        -webkit-box-ordinal-group: 1;
+        -moz-box-ordinal-group: 1;
+        -ms-flex-order: 1;
+        -webkit-order: 1;
+        order: 1;
+    }
+    #timeline-clock {
+        content: url('../assets/about-clock-normal.png');
+    }
+}

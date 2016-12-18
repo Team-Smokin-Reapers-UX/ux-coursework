@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>UX Design</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="./styles/libs/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="./styles/about.css">
+    <link rel="stylesheet" type="text/css" href="./styles/footer.css">
+    <link rel="stylesheet" type="text/css" href="./styles/navigation-customized.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-default">
+        <div class="container-fluid wrapper">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a href="#"><img id="logo" src="assets/telerik-academy-logo.png" alt="Logo"></a>
+            </div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li class="dropdown academy">
+                        <a href="#" class="dropdown-toggle active dropdown-item" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Академия</a>
+                        <ul class="dropdown-menu custom-menu">
+                            <li class="col-sm-12 col-md-3"><a href="./initiatives.html">За Академията</a></li>
+                            <li class="col-sm-12 col-md-3"><a href="#">Кандидатстване</a></li>
+                            <li class="col-sm-12 col-md-3"><a href="#">Входен изпит</a></li>
+                            <li class="col-sm-12 col-md-3"><a href="#">Специалности</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="./courses.html">Курсове</a></li>
+                    <li><a href="#">Форум</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle active dropdown-item" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Помощ</a>
+                        <ul class="dropdown-menu custom-menu">
+                            <li class="col-sm-12 col-md-4"><a href="#">Въпроси</a></li>
+                            <li class="col-sm-12 col-md-4"><a href="#">Обратна връзка</a></li>
+                            <li class="col-sm-12 col-md-4"><a href="#">Условия и правила за участие в Академията на Телерик</a></li>
+                            <li class="col-sm-12 col-md-4"><a href="#">Тестова система </a></li>
+                            <li class="col-sm-12 col-md-4"><a href="#">BGCoder Judge System </a></li>
+                            <li class="col-sm-12 col-md-4"><a href="#">AntiCheat приложение</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                            <img id="search-icon" src="assets/search-icon.png" alt="Search">
+                        </a>
+                        <ul class="dropdown-menu custom-menu">
+                            <li>
+                                <form method="GET" action="/">
+                                    <input type="text" class="search-input" name="search" placeholder="Търси в системата" autocomplete="off">
+                                    <a href="#">
+                                        <img id="search" src="assets/search.png" alt="Search">
+                                    </a>
+                                </form>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><a href="#"><img id="notification-icon" src="./assets/notification-icon.png" alt=""></a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle profile-dropdown dropdown-item" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                            <img id="profile-icon" src="assets/profile.png" alt="Profile">
+                        </a>
+                        <ul class="dropdown-menu custom-menu">
+                            <li class="col-sm-12 col-md-3"><a href="#">Профил</a></li>
+                            <li class="col-sm-12 col-md-3"><a href="#">Календар</a></li>
+                            <li class="col-sm-12 col-md-3"><a href="#">Отборна работа</a></li>
+                            <li class="col-sm-12 col-md-3"><a href="#">Оцени домашно</a></li>
+                            <li class="col-sm-12 col-md-3"><a href="#">Курсове</a></li>
+                            <li class="col-sm-12 col-md-3"><a href="#">Приятели</a></li>
+                            <li class="col-sm-12 col-md-3"><a href="#">Съобщения</a></li>
+                            <li class="col-sm-12 col-md-3"><a href="#">Настройки</a></li>
+                            <li class="col-sm-12 col-md-3"><a href="#">Изход</a></li>
+
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <main>
+        <div class="wrapper">
+            <div class="col-md-12 about-container">
+                <div class="col-xs-12"><h2>Какво правим?</h2></div>
+                <div class="col-md-9 content-container">
+                    <p>„Академията на Телерик“ е безплатна образователна инициатива на Progress, под чийто бранд Telerik продължава да оперира в България и глобално. Тя предоставя съвременно практическо обучение по софтуерно инженерство на хора от различни възрасти.
+                    <br /><br />
+                    Инициативата стартира през 2009 г. с 96 курсисти като метод за подготовка на кадри за Progress. Само няколко години по-късно тя започва да обучава безплатно ученици, студенти и хора от цялата страна, като им предоставя необходимите знания и умения за успешен кариерен старт в глобалната ИТ индустрия. С мащабността си и качествената подготовка по софтуерно инженерство, която предлага, „Академията на Телерик“ се превръща в пионер в българското образование и неразривна част от социално-корпоративната отговорност на Progress.</p>
+                </div>
+                <div class="col-xs-12 col-md-3 image-container">
+                    <img src="./assets/about-what-we-do.png" alt="What we do"/>
+                </div>
+            </div>
+            <div class="col-md-12 about-container">
+                <div class="col-xs-12"><h2>Защо го правим?</h2></div>
+                <div class="col-md-9 content-container">
+                    <p>„Нашата мисия е да помогнем за развитието на българската ИТ индустрия, като създаваме възможност за обучение и реализация на талантливите и мотивирани млади хора да станат софтуерни инженери. Можете да ни видите да водим курсове в събота и неделя, да оставаме в офиса по 12+ часа на ден, да организираме изпити и състезания след полунощ и да се забавляваме след лекции заедно с нашите курсисти, защото обичаме това, което правим.
+                    <br /><br />
+                    Работим усърдно, с много хъс и желание, за да предоставяме винаги актуални обучения, ориентирани към най-новите софтуерни технологии, споделяне на истински know-how и опит, разнообразни теми, хиляди безплатни видео уроци и допълнителни ресурси.</p>
+                </div>
+                <div class="col-xs-12 col-md-3 image-container">
+                    <img src="./assets/about-why-we-do-it.png" alt="What we do"/>
+                </div>
+            </div>
+            <div class="col-md-12 about-container">
+                <div class="col-xs-12"><h2>Как ни оценяват?</h2></div>
+                <div class="col-xs-12 content-container">
+                    <p>Progress е носител на редица награди за принос към обществото и ИТ индустрията в България с „Академията на Телерик“. Инициативата е многократно отличавана за иновативния си подход към обучението по софтуерно инженерство.</p>
+                </div>
+                <div class="col-xs-12 col-md-3 image-container">
+                    <img src="./assets/about-trophy.png" alt="What we do"/>
+                </div>
+                <div class="col-xs-12 col-md-9 content-container">
+                    <ul>
+                        <li>Първо място в категория „Обществена дейност“ на Forbes Business Awards (2012 г., 2016 г.)</li>
+                        <li>Първо място в категория „Инвеститор в знанието“ на годишните награди за отговорен бизнес на Българския форум на бизнес лидерите (2013 г., 2016 г.)</li>
+                        <li>Награда за „Новаторство в обучението по програмиране в България“​ от технологичното издание Computerworld България за Бойко Яръмов, съосновател на Telerik, и директор на „Академията на Телерик“ (2016 г.)</li>
+                        <li>Награда „Иноватор на годината“ в конкурс „Мъж на годината“, организиран от националното Дарик Радио, за Бойко Яръмов, съосновател на Telerik, и директор на „Академията на Телерик“ (2016 г.)</li>
+                        <li>Отличие за „Новатор в образованието“ от образователния сайт Uchi.bg (2014 г., 2016 г.)</li>
+                        <li>Победител в категория „Социално отговорна компания“ на Best in Bizz Awards (2013 г.)</li>
+                        <li>Образователна награда от БАИТ (2012 г.)</li>
+                        <li>Награда за корпоративна и социална отговорност от БАИТ (2012 г.)</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-12 about-container">
+                <div class="col-xs-12"><h2>Как стигнахме до тук?</h2></div>
+                <div class="col-xs-12 col-md-2 image-container">
+                    <img id="timeline-clock" src="./assets/about-clock.png" alt="What we do"/>
+                </div>
+                <div class="col-xs-12 col-md-10 content-container">
+                    <div class="col-md-10 col-md-offset-1">
+                        <p class="timeline-description">От 2009 г. насам „Академията на Телерик“ ежегодно предоставя безплатни практически обучения по разработка на софтуер за уеб, десктоп и мобилни приложения на хиляди български ученици, студенти и начинаещи софтуерни инженери.
+                        </p>
+                    </div>
+                    <div class="col-md-11 col-md-offset-1">
+                        <h2 class="timeline-title"> Основни етапи и постижения</h2>
+                    </div>
+                    <div class="col-md-12">
+                        <ul class="timeline">
+                            <li><h5 class="date">Февруари 2010 г.</h5>
+                            Академията на Телерик“ стартира първото издание на програмата „Софтуерна академия на Телерик“, осигурявайки интензивна практическа подготовка на 96 начинаещи софтуерни инженера.</li>
+
+                            <li><h5 class="date">Февруари 2010 г.</h5>
+                            Допълнителни безплатни курсове по програмиране, извън програмата „Софтуерна академия на Телерик“, започват да се водят в Софийски университет „Св. Климент Охридски“, както и в „Академията на Телерик“. Обученията са достъпни за всички желаещи в присъствена и онлайн форма.</li>
+                            <li><h5 class="date">Октомври 2010 г.</h5>
+                            Второто издание на „Софтуерната академия на Телерик“ печели още по-широк интерес. В програмата се включват 115 участници, а 40 от завършилите започват работа в Телерик като  “Junior .NET Developer”, “Junior QA Engineer” и “Junior Developer Support Engineer”.</li>
+                            <li><h5 class="date">Октомври 2010 г.</h5>
+                            Започваме изцяло нова инициатива - „Училищна академия на Телерик“, която подготвя гимназиални ученици от цялата страна за Националната олимпиада по информационни технологии. Днес в „Училищната академия на Телерик “ се обучават най-будните ученици от страната и всички първенци в НОИТ.</li>
+                            <li><h5 class="date">Септември 2011 г.</h5>
+                            За първи път стартира „Детска академия на Телерик“ за ученици от 4-ти до 6-ти клас. Откриваме десетки школи по програмиране в страната, в които се обучават над 400 деца.</li>
+                            <li><h5 class="date">Октомври 2011 г.</h5>
+                            „Софтуерната академия на Телерик“ удвоява курсистите си. Малко над 300 човека започват безплатното си обучение, сред които шампиони от национални и международни състезания по информатика и ИТ. </li>
+                            <li><h5 class="date">Ноември - Декември 2011  г.</h5>
+                            Отварят врати две нови, модерно оборудвани учебни зали на „Академията на Телерик“ с общ капацитет над 300 седящи места, които да поберат нарастващия брой курсисти.</li>
+                            <li><h5 class="date">Февруари 2012 г.</h5>
+                            Курсът по „Уеб дизайн с HTML5, CSS3 и JavaScript“ приковава вниманието на близо 3000 човека, 300 от които получават възможност да посещават лекциите на живо.</li>
+                            <li><h5 class="date">Февруари 2012 г.</h5>
+                            В портфолиото от безплатни обучения на „Академията на Телерик“ се включва още една страхотна инициатива: тренировки по състезателно програмиране - „Алго академия на Телерик“, която подготвя ученици и студенти за национални и международни състезания по информатика.</li>
+                            <li><h5 class="date">Май 2012 г.</h5>
+                            Малчуганите от „Детска академия на Телерик“ печелят своите първи медали от Националната олимпиада по информатика. Възпитаниците на инициатовата формират 70% от състезателите по програмиране във възраст 4-6 клас и обират медалите във финалния кръг на НОИ – група Е.</li>
+                            <li><h5 class="date">Май 2012 г.</h5>
+                            Организаторите на XXVIII Национална олимпиада по информатика връчват специална грамота и златен медал на „Академията на Телерик“ за приноса на инициативата в развитието на състезателното програмиране.</li>
+                            <li><h5 class="date">Октомври 2012 г.</h5>
+                            Над 1000 човека стартират своето безплатно обучение в „Софтуерна академия на Телерик“. Курсистите се подготвят присъствено в рамките на една година, за да започнат работа като софтуерни инженери.</li>
+                            <li><h5 class="date">Февруари 2013 г.</h5>
+                            Заради високия интерес към обученията на „Академията на Телерик“, врати отваря нова, още по-модерно оборудвана зала - Ultimate. Залата е с капацитет 220 седящи места.</li>
+                            <li><h5 class="date">Април 2013 г.</h5>
+                            За първи път „Софтуерната академия на Телерик“ стартира и пролетен прием в програмата, специално посветен на работещите. Над 600 човека се обучават онлайн и присъствено в удължената програма за подготовка на софтуерни инженери.</li>
+                            <li><h5 class="date">Октомври 2014 г.</h5>
+                            Още 500 нови курсисти се включват в петия сезон на „Софтуерната академия на Телерик“.</li>
+                            <li><h5 class="date">Октомври 2014 г.</h5>
+                            Първото проучване  сред всички, преминали поне 70% от присъствената ни програма, доказва големия принос на „Софтуерната академия на Телерик“ към професионалната реализация на курсистите.</li>
+                            <li><h5 class="date">Ноември 2014 г.</h5>
+                            Второто проучване сред завършилите сезон 2012-2013 на „Софтуерната академия на Телерик“ показва, че 97% от бившите курсисти днес работят в софтуерната индустрия. Почти половината намират работа още докато се обучават в „Академията на Телерик“ или само в рамките на месец след края на програмата.</li>
+                            <li><h5 class="date">Ноември 2014 г.</h5>
+                            Второто проучване сред завършилите сезон 2012-2013 на „Софтуерната академия на Телерик“ показва, че 97% от бившите курсисти днес работят в софтуерната индустрия. Почти половината намират работа още докато се обучават в „Академията на Телерик“ или само в рамките на месец след края на програмата.</li>
+                            <li><h5 class="date">Януари 2015 г.</h5>
+                            Започва шестият сезон на „Софтуерната академия на Телерик“ с близо 700 нови курсисти.</li>
+                            <li><h5 class="date">Февруари 2016 г.</h5>
+                            „Детската академия на Телерик“ разширява програмата си с безплатни работилници по програмиране за деца от първи до трети клас, организирани съвместно с CoderDojo България и в партньорство с Дигиталната Национална Коалиция.</li>
+                            <li><h5 class="date">Март 2016 г.</h5>
+                            Стартира седмият сезон на „Софтуерната академия на Телерик“.</li>
+                            <li><h5 class="date">Октомври 2016 г.</h5>
+                            Стартира осмият сезон на „Софтуерната академия на Телерик“.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="top-row-links">
+            <div class="wrapper">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-6 col-md-3 footer-links">
+                        <ul>
+                            <li class="header-link"><a href="#">Софтуерна Академия</a></li>
+                            <li class="sub-link"><a href="#">За Софтуерната академия</a></li>
+                            <li class="sub-link"><a href="#">Сертификати</a></li>
+                            <li class="sub-link"><a href="#">Прием</a></li>
+                            <li class="sub-link"><a href="#">Кандидатствай</a></li>
+                            <li class="sub-link"><a href="#">Приемен изпит</a></li>
+                            <li class="sub-link"><a href="#">Често задавани въпроси</a></li>
+                        </ul>
+                        <ul>
+                            <li class="header-link"><a href="#">Дигитална Академия</a></li>
+                            <li class="sub-link"><a href="#">За Дигиталната академия</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-3 footer-links">
+                        <ul>
+                            <li class="header-link"><a href="#">Училищна Академия</a></li>
+                            <li class="sub-link"><a href="#">За Училищната академия</a></li>
+                            <li class="sub-link"><a href="#">Сезони</a></li>
+                            <li class="sub-link"><a href="#">Често задавани въпроси</a></li>
+                        </ul>
+                        <ul>
+                            <li class="header-link"><a href="#">Детска Академия</a></li>
+                            <li class="sub-link"><a href="#">За Детската академия</a></li>
+                        </ul>
+                        <ul>
+                            <li class="header-link"><a href="#">Алго Академия</a></li>
+                            <li class="sub-link"><a href="#">За Алго академия</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-3 footer-links">
+                        <ul>
+                            <li class="header-link"><a href="#">Семинари</a></li>
+                            <li class="sub-link"><a href="#">За семинарите</a></li>
+                            <li class="sub-link"><a href="#">Софтуерно инженерство</a></li>
+                            <li class="sub-link"><a href="#">Други</a></li>
+                            <li class="sub-link"><a href="#">Състезания</a></li>
+                        </ul>
+                        <ul>
+                            <li class="header-link"><a href="#">Курсове</a></li>
+                            <li class="sub-link"><a href="#">За курсовете</a></li>
+                            <li class="sub-link"><a href="#">Програмиране</a></li>
+                            <li class="sub-link"><a href="#">Уеб дизайн и UI технологии</a></li>
+                            <li class="sub-link"><a href="#">Личностни и бизнес умения</a></li>
+                            <li class="sub-link"><a href="#">Външни курсове</a></li>
+                            <li class="sub-link"><a href="#">Архивни курсове</a></li>
+                            <li class="sub-link"><a href="#">Често задавани въпроси</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-3 footer-links">
+                        <ul>
+                            <li class="header-link"><a href="#">За нас</a></li>
+                            <li class="sub-link"><a href="#">За Академията на Телерик</a></li>
+                            <li class="sub-link"><a href="#">Новини</a></li>
+                            <li class="sub-link"><a href="#">Лицензи</a></li>
+                            <li class="sub-link"><a href="#">Галерия</a></li>
+                            <li class="sub-link"><a href="#">Форум</a></li>
+                            <li class="sub-link"><a href="#">Студентска система</a></li>
+                            <li class="sub-link"><a href="#">Условия за ползване на сайта</a></li>
+                            <li class="sub-link"><a href="#">Контакти</a></li>
+                        </ul>
+                        <ul>
+                            <li class="header-link"><a href="#">Вход</a></li>
+                        </ul>
+                        <ul>
+                            <li class="header-link"><a href="#">En</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row bottom-row-links">
+            <div class="wrapper">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-6 col-md-4 footer-links">
+                        <ul>
+                            <li>Всички права запазени &nbsp &copy &nbsp <a href="#">Telerik Academy</a></li>
+                        </ul>
+                    </div>
+                    <div class="hidden-xs hidden-sm col-md-4 footer-links">
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4 footer-links social-media-icons">
+                        <ul>
+                            <li class="sub-link"><a href="#"><img id="facebook-icon" src="./assets/facebook-icon.png" alt=""></a></li>
+                            <li class="sub-link"><a href="#"><img id="youtube-icon" src="./assets/youtube-icon.png" alt=""></a></li>
+                            <li class="sub-link"><a href="#"><img id="twitter-icon" src="./assets/twitter-icon.png" alt=""></a></li>
+                            <li class="sub-link"><a href="#"><img id="google-plus-icon" src="./assets/google-plus-icon.png" alt=""></a></li>
+                            <li class="sub-link"><a href="#"><img id="rss-icon" src="./assets/rss-icon.png" alt=""></a></li>
+                            <li class="sub-link"><a href="#"><img id="linkedin-icon" src="./assets/linkedin-icon.png" alt=""></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>

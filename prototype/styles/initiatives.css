@@ -18,12 +18,6 @@ header .content-container {
     padding: 20px;
 }
 
-header .content-container p{
-    font-weight: 300;
-    line-height: 200%;
-    font-size: 17px;
-}
-
 main {
     overflow: auto;
     margin-bottom: 20px;
@@ -58,11 +52,12 @@ main .content-container h2{
 
 main .content-container p, .academy-content-container p{
     font-weight: 300;
-    line-height: 200%;
+    line-height: 170%;
     font-size: 17px;
+    color: #4f5d6c;
 }
 
-.content-container button, .academy-content-container button {
+.content-container .learn-more-button, .academy-content-container .learn-more-button {
     width: 270px;
     height: 50px;
     background-color: transparent;
@@ -72,9 +67,11 @@ main .content-container p, .academy-content-container p{
     text-transform: uppercase;
     color: #1e4b6a;
     margin: 20px 0px;
+    text-align: center;
+    line-height: 35px;
 }
 
-.content-container button:hover, .academy-content-container button:hover {
+.content-container .learn-more-button:hover, .academy-content-container .learn-more-button:hover {
     background-color: #1e4b6a;
     color: #FFFFFF;
 }
