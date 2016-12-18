@@ -3,10 +3,96 @@
 body {
     font-family: 'Roboto', sans-serif;
 }
-
 main {
     overflow: auto;
     margin: 40px 0px;
+}
+main h2{
+    font-weight: 300;
+    font-size: 44px;
+    margin-top: 0px;
+    padding-bottom: 10px;
+}
+
+main section p{
+    font-weight: 300;
+    line-height: 170%;
+    font-size: 16px;
+    color: #4f5d6c;
+}
+
+.next-meeting {
+    margin: 50px 0px;
+}
+
+.next-meeting .time-place {
+    background-color: #51b765;
+    text-align: center;
+    padding: 20px;
+    height: 290px;
+}
+
+.next-meeting .time-place p{
+    color: #FFFFFF;
+    margin: 20px 0px;
+}
+
+.next-meeting .content {
+    background-color: #F1F1F1;
+    padding: 20px;
+    height: 290px;
+}
+
+.next-meeting .content h2{
+    font-size: 32px;
+    font-weight: 300;
+}
+
+.next-meeting .content p{
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.next-meeting .content .register-button {
+    width: 220px;
+    height: 40px;
+    background-color: #1e4b6a;
+    font-size: 16px;
+    font-weight: 300px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin: 20px 0px;
+    text-align: center;
+    line-height: 25px;
+}
+
+.next-meeting .content .register-button:hover {
+    color: #51b765;
+}
+
+main .content-container ul{
+    font-weight: 300;
+    line-height: 230%;
+    font-size: 15px;
+    color: #4f5d6c;
+}
+
+main .content-container .schedule-list {
+    padding-left: 90px;
+}
+
+
+main .content-container .schedule-month {
+    font-weight: 500;
+}
+
+main .content-container a {
+    color: #51b765;
+    text-decoration: none;
+}
+
+main .about-container {
+    margin-bottom: 30px;
 }
 
 #side-menu {
@@ -22,22 +108,14 @@ main {
 
 .panel .arrow {
     display: inline-block;
-    width: 9px;
-    height: 5px;
+    width: 14px;
+    height: 8px;
     margin-left: 2px;
-    background-image: url('../assets/arrow-side-navigation-active.png');
+    background-image: url('../assets/arrow-side-navigation.png');
     background-size: cover;
 }
 
-.panel-heading[data-parent="#courses-side-navigation"] {
-    border-top: 1px solid #E1E1E1;
-}
-
 .panel:last-of-type {
-    border: 0px;
-}
-
-.panel-heading[data-parent="#courses-side-navigation"]:first-of-type {
     border: 0px;
 }
 
@@ -65,31 +143,9 @@ main {
 }
 
 .panel-heading a {
-    font-size: 14px;
-    text-decoration: none;
-    color: #51b765;
-}
-
-.panel-heading[data-parent="#courses-side-navigation"] a {
     font-size: 16px;
     text-decoration: none;
     color: #1e4b6a;
-}
-
-.panel-heading[data-parent="#courses-side-navigation"] .arrow {
-    display: inline-block;
-    width: 14px;
-    height: 8px;
-    margin-left: 2px;
-    background-image: url('../assets/arrow-side-navigation.png');
-}
-
-.panel-heading[data-parent="#courses-side-navigation"][aria-expanded="true"] {
-    background-color: #1e4b6a;
-}
-
-.panel-heading[data-parent="#courses-side-navigation"][aria-expanded="true"] a{
-    color: #FFFFFF;
 }
 
 
@@ -136,8 +192,8 @@ a.list-group-item:hover {
     margin: 0px;
 }
 
-.content {
-    width: 100%;
-    height: 500px;
-    background-color: #E9E9E9;
+@media (max-width: 767px) {
+    .next-meeting .content {
+        height: 100%;
+    }
 }
