@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700');
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+main {
+    overflow: auto;
+    margin-bottom: 20px;
+}
+
+#side-menu {
+    margin-bottom: 20px;
+}
+
+.panel {
+    border: 0px;
+    border-bottom: 1px solid #E1E1E1;
+    -webkit-box-shadow: 0;
+    box-shadow: 0;
+}
+
+.panel .arrow {
+    display: inline-block;
+    width: 9px;
+    height: 5px;
+    margin-left: 2px;
+    background-image: url('../assets/arrow-side-navigation-active.png');
+    background-size: cover;
+}
+
+.panel-heading[data-parent="#courses-side-navigation"] {
+    border-top: 1px solid #E1E1E1;
+}
+
+.panel:last-of-type {
+    border: 0px;
+}
+
+.panel-heading[data-parent="#courses-side-navigation"]:first-of-type {
+    border: 0px;
+}
+
+.side-menu-option {
+    display: inline-block;
+    width: 90%;
+}
+
+.side-menu-arrow {
+    display: inline-block;
+    width: 10%;
+    text-align: center;
+}
+
+.panel-heading {
+    display: flex;
+    align-items: center;
+    border-radius: 0px;
+}
+
+.panel {
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+
+.panel-heading a {
+    font-size: 14px;
+    text-decoration: none;
+    color: #51b765;
+}
+
+.panel-heading[data-parent="#courses-side-navigation"] a {
+    font-size: 17px;
+    text-decoration: none;
+    color: #1e4b6a;
+}
+
+.panel-heading[data-parent="#courses-side-navigation"] .arrow {
+    display: inline-block;
+    width: 14px;
+    height: 8px;
+    margin-left: 2px;
+    background-image: url('../assets/arrow-side-navigation.png');
+}
+
+.panel-heading[data-parent="#courses-side-navigation"][aria-expanded="true"] {
+    background-color: #1e4b6a;
+}
+
+.panel-heading[data-parent="#courses-side-navigation"][aria-expanded="true"] a{
+    color: #FFFFFF;
+}
+
+
+.panel-heading:hover {
+    cursor: pointer;
+}
+
+.panel-heading:hover a{
+    color: #51b765;
+}
+
+.panel-heading:hover .arrow{
+    background-image: url('../assets/arrow-side-navigation-active.png');
+}
+
+.panel-heading[aria-expanded="true"] {
+    background-color: #51b765;
+}
+
+.panel-heading[aria-expanded="true"] a{
+    color: #FFFFFF;
+}
+
+.panel-heading[aria-expanded="true"] .arrow{
+    background-image: url('../assets/arrow-side-navigation-expanded.png');
+}
+
+.panel>.list-group .list-group-item, .panel>.panel-collapse>.list-group .list-group-item {
+    border: 0px;
+    font-size: 14px;
+    background-color: #FCFCFC;
+}
+
+a.list-group-item:hover {
+    color: #51b765;
+    background-color: inherit;
+}
+
+.panel-group {
+    margin: 0px;
+}
+
+.panel-group .panel+.panel {
+    margin: 0px;
+}
+
+.content {
+    width: 100%;
+    height: 500px;
+    background-color: #E9E9E9;
+}

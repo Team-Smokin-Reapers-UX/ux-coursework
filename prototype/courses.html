@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>UX Design</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="./styles/libs/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="./styles/courses.css">
+    <link rel="stylesheet" type="text/css" href="./styles/footer.css">
+    <link rel="stylesheet" type="text/css" href="./styles/navigation-customized.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-default">
+        <div class="container-fluid wrapper">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a href="#"><img id="logo" src="assets/telerik-academy-logo.png" alt="Logo"></a>
+            </div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li class="dropdown academy">
+                        <a href="#" class="dropdown-toggle active dropdown-item" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Академия</a>
+                        <ul class="dropdown-menu custom-menu">
+                            <li class="col-sm-12 col-md-3"><a href="./initiatives.html">За Академията</a></li>
+                            <li class="col-sm-12 col-md-3"><a href="#">Кандидатстване</a></li>
+                            <li class="col-sm-12 col-md-3"><a href="#">Входен изпит</a></li>
+                            <li class="col-sm-12 col-md-3"><a href="#">Специалности</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="./courses.html">Курсове</a></li>
+                    <li><a href="#">Форум</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle active dropdown-item" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Помощ</a>
+                        <ul class="dropdown-menu custom-menu">
+                            <li class="col-sm-12 col-md-6"><a href="#">Условия и правила за участие в Академията на Телерик</a></li>
+                            <li class="col-sm-12 col-md-6"><a href="#">Обратна връзка</a></li>
+                            <li class="col-sm-12 col-md-12"><div class="separator"></div></li>
+                            <li class="col-sm-12 col-md-6"><a href="#">Как се кандидатства в софтуерната академия?</a></li>
+                            <li class="col-sm-12 col-md-6"><a href="#">Как да запишем онлайн курс в софтуерната академия?</a></li>
+                            <li class="col-sm-12 col-md-6"><a href="#">Как да изпратим домашно в студентската система?</a></li>
+                            <li class="col-sm-12 col-md-6"><a href="#">Как да кандидатстваме за сертификат?</a></li>
+                            <li class="col-sm-12 col-md-6"><a href="#">Как да запишем група за курса, който сме избрали?</a></li>
+                            <li class="col-sm-12 col-md-6"><a href="#">Как да запишем тест или практически изпит?</a></li>
+                            <li class="col-sm-12 col-md-12"><div class="separator"></div></li>
+                            <li class="col-sm-12 col-md-4"><a href="#">Тестова система </a></li>
+                            <li class="col-sm-12 col-md-4"><a href="#">BGCoder Judge System </a></li>
+                            <li class="col-sm-12 col-md-4"><a href="#">AntiCheat приложение</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                            <img id="search-icon" src="assets/search-icon.png" alt="Search">
+                        </a>
+                        <ul class="dropdown-menu custom-menu">
+                            <li>
+                                <form method="GET" action="/">
+                                    <input type="text" class="search-input" name="search" placeholder="Търси в системата" autocomplete="off">
+                                    <a href="#">
+                                        <img id="search" src="assets/search.png" alt="Search">
+                                    </a>
+                                </form>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><a href="#"><img id="notification-icon" src="./assets/notification-icon.png" alt=""></a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle profile-dropdown dropdown-item" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                            <img id="profile-icon" src="assets/profile.png" alt="Profile">
+                        </a>
+                        <ul class="dropdown-menu custom-menu">
+                            <li class="col-sm-12 col-md-3"><a href="#">Профил</a></li>
+                            <li class="col-sm-12 col-md-3"><a href="#">Календар</a></li>
+                            <li class="col-sm-12 col-md-3"><a href="#">Отборна работа</a></li>
+                            <li class="col-sm-12 col-md-3"><a href="#">Оцени домашно</a></li>
+                            <li class="col-sm-12 col-md-3"><a href="#">Курсове</a></li>
+                            <li class="col-sm-12 col-md-3"><a href="#">Приятели</a></li>
+                            <li class="col-sm-12 col-md-3"><a href="#">Съобщения</a></li>
+                            <li class="col-sm-12 col-md-3"><a href="#">Настройки</a></li>
+                            <li class="col-sm-12 col-md-3"><a href="#">Изход</a></li>
+
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <main>
+        <div class="wrapper">
+            <nav id="side-menu" class="col-md-3">
+                <div class="panel-group" id="courses-side-navigation">
+                    <div class="panel panel-default">
+                        <div class="panel-heading" data-toggle="collapse" data-parent="#courses-side-navigation" href="#software-academy">
+                            <div class="side-menu-option">
+                                <a>Софтуерна Академия</a>
+                            </div>
+                            <div class="side-menu-arrow">
+                                <span class="arrow"></span>
+                            </div>
+                        </div>
+                        <div id="software-academy" class="panel-collapse collapse">
+                            <div class="panel-group" id="software-academy-side-navigation">
+                                <div class="panel panel-default">
+                                    <div class="panel-heading" data-toggle="collapse" data-parent="#software-academy-side-navigation" href="#programing-fundamentals">
+                                        <div class="side-menu-option">
+                                            <a>Основи на програмирането</a>
+                                        </div>
+                                        <div class="side-menu-arrow">
+                                            <span class="arrow"></span>
+                                        </div>
+                                    </div>
+                                    <div id="programing-fundamentals" class="panel-collapse collapse">
+                                        <div class="list-group">
+                                            <a class="list-group-item" href="#">Основи на C#</a>
+                                            <a class="list-group-item" href="#">C# за напреднали</a>
+                                            <a class="list-group-item" href="#">ООП със C#</a>
+                                            <a class="list-group-item" href="#">Основи на JavaScript</a>
+                                            <a class="list-group-item" href="#">ООП с JavaScript</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="panel panel-default">
+                                    <div class="panel-heading" data-toggle="collapse" data-parent="#software-academy-side-navigation" href="#programing-advanced">
+                                        <div class="side-menu-option">
+                                            <a>Програмиране за напреднали</a>
+                                        </div>
+                                        <div class="side-menu-arrow">
+                                            <span class="arrow"></span>
+                                        </div>
+                                    </div>
+                                    <div id="programing-advanced" class="panel-collapse collapse">
+                                        <div class="list-group">
+                                            <a class="list-group-item" href="#">Компонентно тестване със C#</a>
+                                            <a class="list-group-item" href="#">Качествен програмен код със C#</a>
+                                            <a class="list-group-item" href="#">Структури от данни и алгоритми</a>
+                                            <a class="list-group-item" href="#">Бази от данни и SQL</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="panel panel-default">
+                                    <div class="panel-heading" data-toggle="collapse" data-parent="#software-academy-side-navigation" href="#web-front-end">
+                                        <div class="side-menu-option">
+                                            <a>Уеб Front-End</a>
+                                        </div>
+                                        <div class="side-menu-arrow">
+                                            <span class="arrow"></span>
+                                        </div>
+                                    </div>
+                                    <div id="web-front-end" class="panel-collapse collapse">
+                                        <div class="list-group">
+                                            <a class="list-group-item" href="#">Основи на HTML</a>
+                                            <a class="list-group-item" href="#">CSS стилизиране</a>
+                                            <a class="list-group-item" href="#">Javascript UI и DOM</a>
+                                            <a class="list-group-item" href="#">UX дизайн и работа с Photoshop</a>
+                                            <a class="list-group-item" href="#">Изграждане на Front-End за Уеб приложения</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="panel panel-default">
+                                    <div class="panel-heading" data-toggle="collapse" data-parent="#software-academy-side-navigation" href="#web-technologies">
+                                        <div class="side-menu-option">
+                                            <a>Уеб Технологии</a>
+                                        </div>
+                                        <div class="side-menu-arrow">
+                                            <span class="arrow"></span>
+                                        </div>
+                                    </div>
+                                    <div id="web-technologies" class="panel-collapse collapse">
+                                        <div class="list-group">
+                                            <a class="list-group-item" href="#">Уеб приложения с Javascript</a>
+                                            <a class="list-group-item" href="#">Уеб приложения с Node.js</a>
+                                            <a class="list-group-item" href="#">Single-page приложения с Angular 2</a>
+                                            <a class="list-group-item" href="#">Уеб приложения с ASP.NET MVC</a>
+                                            <a class="list-group-item" href="#">Уеб приложения с ASP.NET Web Forms</a>
+                                            <a class="list-group-item" href="#">Уеб приложения с Spring</a>
+                                            <a class="list-group-item" href="#">Уеб приложения с Django</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="panel panel-default">
+                                    <div class="panel-heading" data-toggle="collapse" data-parent="#software-academy-side-navigation" href="#mobile-technologies">
+                                        <div class="side-menu-option">
+                                            <a>Мобилни Технологии</a>
+                                        </div>
+                                        <div class="side-menu-arrow">
+                                            <span class="arrow"></span>
+                                        </div>
+                                    </div>
+                                    <div id="mobile-technologies" class="panel-collapse collapse">
+                                        <div class="list-group">
+                                            <a class="list-group-item" href="#">Приложения за Windows 10</a>
+                                            <a class="list-group-item" href="#">Приложения за iPhone и iPad </a>
+                                            <a class="list-group-item" href="#">Приложения за Android</a>
+                                            <a class="list-group-item" href="#">Мултиплатформени приложения с Nativescript</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel-heading" data-toggle="collapse" data-parent="#courses-side-navigation" href="#digital-academy">
+                            <div class="side-menu-option">
+                                <a>Дигитална Академия</a>
+                            </div>
+                            <div class="side-menu-arrow">
+                                <span class="arrow"></span>
+                            </div>
+                        </div>
+                        <div id="digital-academy" class="panel-collapse collapse">
+                            <div class="panel-group" id="digital-academy-side-navigation">
+                                <div class="panel panel-default">
+                                    <div class="panel-heading" data-toggle="collapse" data-parent="#software-academy-side-navigation" href="#digital-academy-courses">
+                                        <div class="side-menu-option">
+                                            <a>Група от Курсове</a>
+                                        </div>
+                                        <div class="side-menu-arrow">
+                                            <span class="arrow"></span>
+                                        </div>
+                                    </div>
+                                    <div id="digital-academy-courses" class="panel-collapse collapse">
+                                        <div class="list-group">
+                                            <a class="list-group-item" href="#">Курс 1</a>
+                                            <a class="list-group-item" href="#">Курс 2</a>
+                                            <a class="list-group-item" href="#">Курс 3</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel-heading" data-toggle="collapse" data-parent="#courses-side-navigation" href="#school-academy">
+                            <div class="side-menu-option">
+                                <a>Училищна Академия</a>
+                            </div>
+                            <div class="side-menu-arrow">
+                                <span class="arrow"></span>
+                            </div>
+                        </div>
+                        <div id="school-academy" class="panel-collapse collapse">
+                            <div class="panel-group" id="school-academy-side-navigation">
+                                <div class="panel panel-default">
+                                    <div class="panel-heading" data-toggle="collapse" data-parent="#school-academy-side-navigation" href="#school-academy-courses">
+                                        <div class="side-menu-option">
+                                            <a>Група от Курсове</a>
+                                        </div>
+                                        <div class="side-menu-arrow">
+                                            <span class="arrow"></span>
+                                        </div>
+                                    </div>
+                                    <div id="school-academy-courses" class="panel-collapse collapse">
+                                        <div class="list-group">
+                                            <a class="list-group-item" href="#">Курс 1</a>
+                                            <a class="list-group-item" href="#">Курс 2</a>
+                                            <a class="list-group-item" href="#">Курс 3</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel-heading" data-toggle="collapse" data-parent="#courses-side-navigation" href="#kids-academy">
+                            <div class="side-menu-option">
+                                <a>Детска Академия</a>
+                            </div>
+                            <div class="side-menu-arrow">
+                                <span class="arrow"></span>
+                            </div>
+                        </div>
+                        <div id="kids-academy" class="panel-collapse collapse">
+                            <div class="panel-group" id="kids-academy-side-navigation">
+                                <div class="panel panel-default">
+                                    <div class="panel-heading" data-toggle="collapse" data-parent="#kids-academy-side-navigation" href="#kids-academy-games-development">
+                                        <div class="side-menu-option">
+                                            <a>Разработка на игри</a>
+                                        </div>
+                                        <div class="side-menu-arrow">
+                                            <span class="arrow"></span>
+                                        </div>
+                                    </div>
+                                    <div id="kids-academy-games-development" class="panel-collapse collapse">
+                                        <div class="list-group">
+                                            <a class="list-group-item" href="#">Разработка на игри - Начинаещи</a>
+                                            <a class="list-group-item" href="#">Разработка на игри - Средно напреднали</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="panel panel-default">
+                                    <div class="panel-heading" data-toggle="collapse" data-parent="#kids-academy-side-navigation" href="#kids-academy-algorithms">
+                                        <div class="side-menu-option">
+                                            <a>Разработка на игри</a>
+                                        </div>
+                                        <div class="side-menu-arrow">
+                                            <span class="arrow"></span>
+                                        </div>
+                                    </div>
+                                    <div id="kids-academy-algorithms" class="panel-collapse collapse">
+                                        <div class="list-group">
+                                            <a class="list-group-item" href="#">Алгоритмично програмиране - Начинаещи</a>
+                                            <a class="list-group-item" href="#">Алгоритмично програмиране - Средно напреднали</a>
+                                            <a class="list-group-item" href="#">Алгоритмично програмиране - Напреднали</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel-heading" data-toggle="collapse" data-parent="#courses-side-navigation" href="#algo-academy">
+                            <div class="side-menu-option">
+                                <a>Алго Академия</a>
+                            </div>
+                            <div class="side-menu-arrow">
+                                <span class="arrow"></span>
+                            </div>
+                        </div>
+                        <div id="algo-academy" class="panel-collapse collapse">
+                            <div class="panel-group" id="algo-academy-side-navigation">
+                                <div class="panel panel-default">
+                                    <div class="panel-heading" data-toggle="collapse" data-parent="#algo-academy-side-navigation" href="#algo-academy-courses">
+                                        <div class="side-menu-option">
+                                            <a>Група от Курсове</a>
+                                        </div>
+                                        <div class="side-menu-arrow">
+                                            <span class="arrow"></span>
+                                        </div>
+                                    </div>
+                                    <div id="algo-academy-courses" class="panel-collapse collapse">
+                                        <div class="list-group">
+                                            <a class="list-group-item" href="#">Курс 1</a>
+                                            <a class="list-group-item" href="#">Курс 2</a>
+                                            <a class="list-group-item" href="#">Курс 3</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+            <section class="col-md-9">
+                <div class="content"></div>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <div class="top-row-links">
+            <div class="wrapper">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-6 col-md-3 footer-links">
+                        <ul>
+                            <li class="header-link"><a href="#">Софтуерна Академия</a></li>
+                            <li class="sub-link"><a href="#">За Софтуерната академия</a></li>
+                            <li class="sub-link"><a href="#">Сертификати</a></li>
+                            <li class="sub-link"><a href="#">Прием</a></li>
+                            <li class="sub-link"><a href="#">Кандидатствай</a></li>
+                            <li class="sub-link"><a href="#">Приемен изпит</a></li>
+                            <li class="sub-link"><a href="#">Често задавани въпроси</a></li>
+                        </ul>
+                        <ul>
+                            <li class="header-link"><a href="#">Дигитална Академия</a></li>
+                            <li class="sub-link"><a href="#">За Дигиталната академия</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-3 footer-links">
+                        <ul>
+                            <li class="header-link"><a href="#">Училищна Академия</a></li>
+                            <li class="sub-link"><a href="#">За Училищната академия</a></li>
+                            <li class="sub-link"><a href="#">Сезони</a></li>
+                            <li class="sub-link"><a href="#">Често задавани въпроси</a></li>
+                        </ul>
+                        <ul>
+                            <li class="header-link"><a href="#">Детска Академия</a></li>
+                            <li class="sub-link"><a href="#">За Детската академия</a></li>
+                        </ul>
+                        <ul>
+                            <li class="header-link"><a href="#">Алго Академия</a></li>
+                            <li class="sub-link"><a href="#">За Алго академия</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-3 footer-links">
+                        <ul>
+                            <li class="header-link"><a href="#">Семинари</a></li>
+                            <li class="sub-link"><a href="#">За семинарите</a></li>
+                            <li class="sub-link"><a href="#">Софтуерно инженерство</a></li>
+                            <li class="sub-link"><a href="#">Други</a></li>
+                            <li class="sub-link"><a href="#">Състезания</a></li>
+                        </ul>
+                        <ul>
+                            <li class="header-link"><a href="#">Курсове</a></li>
+                            <li class="sub-link"><a href="#">За курсовете</a></li>
+                            <li class="sub-link"><a href="#">Програмиране</a></li>
+                            <li class="sub-link"><a href="#">Уеб дизайн и UI технологии</a></li>
+                            <li class="sub-link"><a href="#">Личностни и бизнес умения</a></li>
+                            <li class="sub-link"><a href="#">Външни курсове</a></li>
+                            <li class="sub-link"><a href="#">Архивни курсове</a></li>
+                            <li class="sub-link"><a href="#">Често задавани въпроси</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-3 footer-links">
+                        <ul>
+                            <li class="header-link"><a href="#">За нас</a></li>
+                            <li class="sub-link"><a href="#">За Академията на Телерик</a></li>
+                            <li class="sub-link"><a href="#">Новини</a></li>
+                            <li class="sub-link"><a href="#">Лицензи</a></li>
+                            <li class="sub-link"><a href="#">Галерия</a></li>
+                            <li class="sub-link"><a href="#">Форум</a></li>
+                            <li class="sub-link"><a href="#">Студентска система</a></li>
+                            <li class="sub-link"><a href="#">Условия за ползване на сайта</a></li>
+                            <li class="sub-link"><a href="#">Контакти</a></li>
+                        </ul>
+                        <ul>
+                            <li class="header-link"><a href="#">Вход</a></li>
+                        </ul>
+                        <ul>
+                            <li class="header-link"><a href="#">En</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row bottom-row-links">
+            <div class="wrapper">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-6 col-md-4 footer-links">
+                        <ul>
+                            <li>Всички права запазени &nbsp &copy &nbsp <a href="#">Telerik Academy</a></li>
+                        </ul>
+                    </div>
+                    <div class="hidden-xs hidden-sm col-md-4 footer-links">
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4 footer-links social-media-icons">
+                        <ul>
+                            <li class="sub-link"><a href="#"><img id="facebook-icon" src="./assets/facebook-icon.png" alt=""></a></li>
+                            <li class="sub-link"><a href="#"><img id="youtube-icon" src="./assets/youtube-icon.png" alt=""></a></li>
+                            <li class="sub-link"><a href="#"><img id="twitter-icon" src="./assets/twitter-icon.png" alt=""></a></li>
+                            <li class="sub-link"><a href="#"><img id="google-plus-icon" src="./assets/google-plus-icon.png" alt=""></a></li>
+                            <li class="sub-link"><a href="#"><img id="rss-icon" src="./assets/rss-icon.png" alt=""></a></li>
+                            <li class="sub-link"><a href="#"><img id="linkedin-icon" src="./assets/linkedin-icon.png" alt=""></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
