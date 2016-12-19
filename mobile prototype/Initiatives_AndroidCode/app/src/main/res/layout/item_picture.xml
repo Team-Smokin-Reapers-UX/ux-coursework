@@ -25,6 +25,42 @@
             android:layout_marginTop="20dp"
             android:background="@color/colorPrimaryDark" />
 
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="JavaScript"
+                android:layout_marginTop="10dp"
+                android:background="#7702A579" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="JavaScript UI and DOM"
+                android:layout_marginTop="10dp"
+                android:background="#8802A579" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="JavaScript OOP"
+                android:layout_marginTop="10dp"
+                android:background="#9902A579" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="JavaScript Applications"
+                android:layout_marginTop="10dp"
+                android:background="#AA02A579" />
+
+        </LinearLayout>
+
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

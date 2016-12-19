@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/GardensWithButton.iml" filepath="$PROJECT_DIR$/GardensWithButton.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Initiatives_AndroidCode.iml" filepath="$PROJECT_DIR$/Initiatives_AndroidCode.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
